@@ -1,0 +1,144 @@
+CurveId;CurveName;CountryCode;CountryName;FuelType;EPSI FuelType
+115693778;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Thermal;oil;B06;FossilOil";DE;Germany;OIL;ST-Oil
+115693779;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Res;;B12;HydroWaterReservoir";DE;Germany;HYDRO-RESERVOIR;Hydro-Res
+115693781;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;PwrGen.Wind.Offsh;;B18;WindOffshore";DE;Germany;WIND-OFFSHORE;Wind
+115693787;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Thermal;CH4;B04;FossilGas";DE;Germany;GAS;CCGT
+115693788;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;nuc;Nuclearfuel;B14;Nuclear";DE;Germany;NUCLEAR;ST-Nuclear
+115693791;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;PwrGen.Solar;;B16;Solar";DE;Germany;SOLAR;Solar
+115693792;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Thermal;Coal.Bit;B05;FossilHardcoal";DE;Germany;COAL;ST-Coal
+115693793;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Pump;;B10;HydroPumpedStorage";DE;Germany;HYDRO-PUMPED-STORAGE;Hydro-PS
+910000165;EntsoE_ActualGeneration_PumpedStorage_CONS;DE;Germany;HYDRO-PUMPED-STORAGE;Hydro-PS-C
+115693795;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Thermal;Lignite;B02;FossilBrowncoal/Lignite";DE;Germany;LIGNITE;ST-Lignite
+115693797;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;PwrGen.Wind.Onsh;;B19;WindOnshore";DE;Germany;WIND-ONSHORE;Wind
+115693800;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;PwrGen;Garbage;B17;Waste";DE;Germany;WASTE;ST-Waste
+115693803;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;PwrGen;;B15;Otherrenewable";DE;Germany;RENEWABLE;ST-Biomass
+115693804;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Geothermal;;B09;Geothermal";DE;Germany;GEOTHERMAL;ST-Geo
+115693805;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;RoR;;B11;HydroRun-of-riverandpoundage";DE;Germany;HYDRO-RUN-OF-RIVER;Hydro-RoR
+115693807;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;Thermal;Biomass;B01;Biomass";DE;Germany;BIOMASS;ST-Biomass
+115693808;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10Y1001A1001A82H;PRO;min.15;MW;PwrGen;;B20;Other";DE;Germany;OTHER;Engine
+910000240;EntsoE_ActualGeneration_FR_WaterReservoir_PROD;FR;France;HYDRO-RESERVOIR;Hydro-Res
+910000237;EntsoE_ActualGeneration_FR_PumpedStorage_PROD;FR;France;HYDRO-PUMPED-STORAGE;Hydro-PS
+910000236;EntsoE-ActualGeneration-FR-Oil;FR;France;OIL;ST-Oil
+910000239;EntsoE_ActualGeneration_FR_RoR_PROD;FR;France;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910000241;EntsoE-ActualGeneration-FR-Nuclear;FR;France;NUCLEAR;ST-Nuclear
+910000243;EntsoE-ActualGeneration-FR-Waste;FR;France;WASTE;ST-Waste
+910000232;EntsoE-ActualGeneration-FR-Biomass;FR;France;BIOMASS;ST-Biomass
+910000244;EntsoE-ActualGeneration-FR-WindOnshore;FR;France;WIND-ONSHORE;Wind
+910000242;EntsoE-ActualGeneration-FR-Solar;FR;France;SOLAR;Solar
+910000234;EntsoE_ActualGeneration_FR_HardCoal_PROD;FR;France;COAL;ST-Coal
+910000233;EntsoE-ActualGeneration-FR-Gas;FR;France;GAS;CCGT
+910000144;EntsoE-ActualGeneration-BE-Nuclear;BE;Belgium;NUCLEAR;ST-Nuclear
+910000145;EntsoE-ActualGeneration-BE-Other;BE;Belgium;OTHER;Engine
+910000141;EntsoE-ActualGeneration-BE-Oil;BE;Belgium;OIL;ST-Oil
+910000143;EntsoE-ActualGeneration-BE-RoR;BE;Belgium;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910000147;EntsoE-ActualGeneration-BE-Waste;BE;Belgium;WASTE;ST-Waste
+910000140;EntsoE-ActualGeneration-BE-HardCoal;BE;Belgium;COAL;ST-Coal
+910000138;EntsoE-ActualGeneration-BE-Biomass;BE;Belgium;BIOMASS;ST-Biomass
+910000146;EntsoE-ActualGeneration-BE-Solar;BE;Belgium;SOLAR;Solar
+910000149;EntsoE-ActualGeneration-BE-WindOnshore;BE;Belgium;WIND-ONSHORE;Wind
+910000148;EntsoE-ActualGeneration-BE-WindOffshore;BE;Belgium;WIND-OFFSHORE;Wind
+910000139;EntsoE-ActualGeneration-BE-Gas;BE;Belgium;GAS;CCGT
+910000142;EntsoE-ActualGeneration-BE-PumpedStorage;BE;Belgium;HYDRO-PUMPED-STORAGE;Hydro-PS
+910000192;EntsoE_ActualGeneration_NL_WindOnshore_PROD;NL;Netherlands;WIND-ONSHORE;Wind
+910000190;EntsoE_ActualGeneration_NL_WindOffshore_PROD;NL;Netherlands;WIND-OFFSHORE;Wind
+910000188;EntsoE-ActualGeneration-NL-Other;NL;Netherlands;OTHER;Engine
+910000184;EntsoE-ActualGeneration-NL-Gas;NL;Netherlands;GAS;CCGT
+910000185;EntsoE-ActualGeneration-NL-HardCoal;NL;Netherlands;COAL;ST-Coal
+910000186;EntsoE-ActualGeneration-NL-Nuclear;NL;Netherlands;NUCLEAR;ST-Nuclear
+910000189;EntsoE-ActualGeneration-NL-Solar;NL;Netherlands;SOLAR;Solar
+910000183;EntsoE-ActualGeneration-NL-Biomass;NL;Netherlands;BIOMASS;ST-Biomass
+910000120;EntsoE_ActualGeneration_AT_Geothermal_PROD;AT;Austria;GEOTHERMAL;ST-Geo
+910000132;EntsoE_ActualGeneration_AT_Solar_PROD;AT;Austria;SOLAR;Solar
+910000134;EntsoE_ActualGeneration_AT_Waste_PROD;AT;Austria;WASTE;ST-Waste
+910000116;EntsoE_ActualGeneration_AT_HardCoal_PROD;AT;Austria;COAL;ST-Coal
+910000114;EntsoE_ActualGeneration_AT_Gas_PROD;AT;Austria;GAS;CCGT
+910000122;EntsoE_ActualGeneration_AT_PumpStorage_PROD;AT;Austria;HYDRO-PUMPED-STORAGE;Hydro-PS
+910000123;EntsoE_ActualGeneration_AT_PumpStorage_CONS;AT;Austria;HYDRO-PUMPED-STORAGE;Hydro-PS-C
+910000136;EntsoE_ActualGeneration_AT_WindOnshore_PROD;AT;Austria;WIND-ONSHORE;Wind
+910000124;EntsoE_ActualGeneration_AT_RoR_PROD;AT;Austria;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910000130;EntsoE_ActualGeneration_AT_OtherRenewable_PROD;AT;Austria;RENEWABLE;ST-Biomass
+910000128;EntsoE_ActualGeneration_AT_Other_PROD;AT;Austria;OTHER;Engine
+910000118;EntsoE_ActualGeneration_AT_Oil_PROD;AT;Austria;OIL;ST-Oil
+910000126;EntsoE_ActualGeneration_AT_WaterReservoir_PROD;AT;Austria;HYDRO-RESERVOIR;Hydro-Res
+910000112;EntsoE_ActualGeneration_AT_Biomass_PROD;AT;Austria;BIOMASS;ST-Biomass
+106952877;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;Thermal;CH4;B04;FossilGas";ES;Spain;GAS;CCGT
+106952878;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;PwrGen.Solar;;B16;Solar";ES;Spain;SOLAR;Solar
+106952879;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;Res;;B12;HydroWaterReservoir";ES;Spain;HYDRO-RESERVOIR;Hydro-Res
+106952880;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;Thermal;Coal.Bit;B05;FossilHardcoal";ES;Spain;COAL;ST-Coal
+106952881;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;RoR;;B11;HydroRun-of-riverandpoundage";ES;Spain;HYDRO-RUN-OF-RIVER;Hydro-RoR
+106952883;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;Thermal;oil;B06;FossilOil";ES;Spain;OIL;ST-Oil
+106952886;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;nuc;Nuclearfuel;B14;Nuclear";ES;Spain;NUCLEAR;ST-Nuclear
+106952887;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;PwrGen;Garbage;B17;Waste";ES;Spain;WASTE;ST-Waste
+106952888;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;PwrGen.Wind.Onsh;;B19;WindOnshore";ES;Spain;WIND-ONSHORE;Wind
+106952890;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;PwrGen;;B15;Otherrenewable";ES;Spain;RENEWABLE;ST-Biomass
+106952891;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;PwrGen;;B20;Other";ES;Spain;OTHER;Engine
+106952893;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;Thermal;Lignite;B02;FossilBrowncoal/Lignite";ES;Spain;LIGNITE;ST-Lignite
+106952894;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;PwrGen.Wind.Offsh;;B18;WindOffshore";ES;Spain;WIND-OFFSHORE;Wind
+106952896;"ENTSO-E.PRO.TECH.A;PWR;ENTSOE;UTC;A;H.1;10YES-REE------0;PRO;H.1;MW;Thermal;Biomass;B01;Biomass";ES;Spain;BIOMASS;ST-Biomass
+910002991;ENTSOE_ActualGeneration_CZ_THERMAL_BIOMASS_PROD;CZ;Czech Republic;BIOMASS;ST-Biomass
+910002992;ENTSOE_ActualGeneration_CZ_THERMAL_LIGNITE_PROD;CZ;Czech Republic;LIGNITE;ST-Lignite
+910002993;ENTSOE_ActualGeneration_CZ_THERMAL_COAL-AND-GAS_PROD;CZ;Czech Republic;COAL-AND-GAS;CCGT
+910002994;ENTSOE_ActualGeneration_CZ_THERMAL_GAS_PROD;CZ;Czech Republic;GAS;CCGT
+910002995;ENTSOE_ActualGeneration_CZ_THERMAL_COAL_PROD;CZ;Czech Republic;COAL;ST-Coal
+910002996;ENTSOE_ActualGeneration_CZ_THERMAL_OIL_PROD;CZ;Czech Republic;OIL;ST-Oil
+910002997;ENTSOE_ActualGeneration_CZ_HYDRO-PUMPED-STORAGE__PROD;CZ;Czech Republic;HYDRO-PUMPED-STORAGE;Hydro-PS
+910002999;ENTSOE_ActualGeneration_CZ_HYDRO-RUN-OF-RIVER__PROD;CZ;Czech Republic;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910003000;ENTSOE_ActualGeneration_CZ_HYDRO-RESERVOIR__PROD;CZ;Czech Republic;HYDRO-RESERVOIR;Hydro-Res
+910003001;ENTSOE_ActualGeneration_CZ_NUCLEAR__PROD;CZ;Czech Republic;NUCLEAR;ST-Nuclear
+910003002;ENTSOE_ActualGeneration_CZ_OTHER__PROD;CZ;Czech Republic;OTHER;Engine
+910003003;ENTSOE_ActualGeneration_CZ_RENEWABLE__PROD;CZ;Czech Republic;RENEWABLE;ST-Biomass
+910003004;ENTSOE_ActualGeneration_CZ_SOLAR__PROD;CZ;Czech Republic;SOLAR;Solar
+910003005;ENTSOE_ActualGeneration_CZ_THERMAL_WASTE_PROD;CZ;Czech Republic;WASTE;ST-Waste
+910003006;ENTSOE_ActualGeneration_CZ_WIND-ONSHORE__PROD;CZ;Czech Republic;WIND-ONSHORE;Wind
+910003021;ENTSOE_ActualGeneration_HU_THERMAL_BIOMASS_PROD;HU;Hungary;BIOMASS;ST-Biomass
+910003022;ENTSOE_ActualGeneration_HU_THERMAL_LIGNITE_PROD;HU;Hungary;LIGNITE;ST-Lignite
+910003023;ENTSOE_ActualGeneration_HU_THERMAL_GAS_PROD;HU;Hungary;GAS;CCGT
+910003024;ENTSOE_ActualGeneration_HU_THERMAL_OIL_PROD;HU;Hungary;OIL;ST-Oil
+910003026;ENTSOE_ActualGeneration_HU_HYDRO-RUN-OF-RIVER__PROD;HU;Hungary;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910003027;ENTSOE_ActualGeneration_HU_HYDRO-RESERVOIR__PROD;HU;Hungary;HYDRO-RESERVOIR;Hydro-Res
+910003028;ENTSOE_ActualGeneration_HU_NUCLEAR__PROD;HU;Hungary;NUCLEAR;ST-Nuclear
+910003029;ENTSOE_ActualGeneration_HU_OTHER__PROD;HU;Hungary;OTHER;Engine
+910003030;ENTSOE_ActualGeneration_HU_RENEWABLE__PROD;HU;Hungary;RENEWABLE;ST-Biomass
+910003031;ENTSOE_ActualGeneration_HU_THERMAL_WASTE_PROD;HU;Hungary;WASTE;ST-Waste
+910003032;ENTSOE_ActualGeneration_HU_WIND-ONSHORE__PROD;HU;Hungary;WIND-ONSHORE;Wind
+910000277;EntsoE-ActualGeneration-IT-NORTH-Biomass;IT;Italy NORD;BIOMASS;ST-Biomass
+910000278;EntsoE-ActualGeneration-IT-NORTH-Gas;IT;Italy NORD;GAS;CCGT
+910000279;EntsoE-ActualGeneration-IT-NORTH-HardCoal;IT;Italy NORD;COAL;ST-Coal
+910000280;EntsoE-ActualGeneration-IT-NORTH-Oil;IT;Italy NORD;OIL;ST-Oil
+910000281;EntsoE_ActualGeneration_IT_NORTH_PumpedStorage_PROD;IT;Italy NORD;HYDRO-PUMPED-STORAGE;Hydro-PS
+910000283;EntsoE-ActualGeneration-IT-NORTH-RoR;IT;Italy NORD;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910000284;EntsoE-ActualGeneration-IT-NORTH-WaterReservoir;IT;Italy NORD;HYDRO-RESERVOIR;Hydro-Res
+910000285;EntsoE-ActualGeneration-IT-NORTH-Other;IT;Italy NORD;OTHER;Engine
+910000286;EntsoE-ActualGeneration-IT-NORTH-Solar;IT;Italy NORD;SOLAR;Solar
+910000287;EntsoE-ActualGeneration-IT-NORTH-Waste;IT;Italy NORD;WASTE;ST-Waste
+910000288;EntsoE_ActualGeneration_IT_NORTH_WindOnshore_PROD;IT;Italy NORD;WIND-ONSHORE;Wind
+910000371;EntsoE-WaterReserve-IT-NORTH;IT;Italy NORD;HYDRO-RESERVOIR;Hydro-Res
+910002866;EntsoE_ActualGeneration_IT_NORTH_DerivedGas;IT;Italy NORD;COAL-AND-GAS;CCGT
+910000226;EntsoE-ActualGeneration-CH-PumpedStorage;CH;Switzerland;HYDRO-PUMPED-STORAGE;Hydro-PS
+910000227;EntsoE-ActualGeneration-CH-RoR;CH;Switzerland;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910000228;EntsoE-ActualGeneration-CH-WasterReservoir;CH;Switzerland;HYDRO-RESERVOIR;Hydro-Res
+910000229;EntsoE-ActualGeneration-CH-Nuclear;CH;Switzerland;NUCLEAR;ST-Nuclear
+910000230;EntsoE-ActualGeneration-CH-Solar;CH;Switzerland;SOLAR;Solar
+910000231;EntsoE-ActualGeneration-CH-WindOnshore;CH;Switzerland;WIND-ONSHORE;Wind
+910000367;EntsoE-WaterReserve-CH;CH;Switzerland;HYDRO-RESERVOIR;Hydro-Res
+910000655;EntsoE-ActualGeneration-CH-Gas;CH;Switzerland;GAS;CCGT
+910003053;ENTSOE_ActualGeneration_SI_THERMAL_BIOMASS_PROD;SI;Slovenia;BIOMASS;ST-Biomass
+910003054;ENTSOE_ActualGeneration_SI_THERMAL_LIGNITE_PROD;SI;Slovenia;LIGNITE;ST-Lignite
+910003055;ENTSOE_ActualGeneration_SI_THERMAL_GAS_PROD;SI;Slovenia;GAS;CCGT
+910003056;ENTSOE_ActualGeneration_SI_THERMAL_OIL_PROD;SI;Slovenia;OIL;ST-Oil
+910003057;ENTSOE_ActualGeneration_SI_HYDRO-PUMPED-STORAGE__PROD;SI;Slovenia;HYDRO-PUMPED-STORAGE;Hydro-PS
+910003058;ENTSOE_ActualGeneration_SI_HYDRO-RUN-OF-RIVER__PROD;SI;Slovenia;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910003059;ENTSOE_ActualGeneration_SI_NUCLEAR__PROD;SI;Slovenia;NUCLEAR;ST-Nuclear
+910003060;ENTSOE_ActualGeneration_SI_SOLAR__PROD;SI;Slovenia;SOLAR;Solar
+910003061;ENTSOE_ActualGeneration_SI_THERMAL_WASTE_PROD;SI;Slovenia;WASTE;ST-Waste
+910003062;ENTSOE_ActualGeneration_SI_WIND-ONSHORE__PROD;SI;Slovenia;WIND-ONSHORE;Wind
+910001376;UK-Oil-5min-Actual-Generation;GB;Great Britain;OIL;ST-Oil
+910001377;UK-Coal-5min-Actual-Generation;GB;Great Britain;COAL;ST-Coal
+910001378;UK-Nuclear-5min-Actual-Generation;GB;Great Britain;NUCLEAR;ST-Nuclear
+910001379;UK-Wind-5min-Actual-Generation;GB;Great Britain;WIND-ONSHORE;Wind
+910001380;UK-PS-5min-Actual-Generation;GB;Great Britain;HYDRO-PUMPED-STORAGE;Hydro-PS
+910001381;UK-CCGT-5min-Actual-Generation;GB;Great Britain;GAS;CCGT
+910001382;UK-Hydro-5min-Actual-Generation;GB;Great Britain;HYDRO-RUN-OF-RIVER;Hydro-RoR
+910001383;UK-OCGT-5min-Actual-Generation;GB;Great Britain;HYDRO-RUN-OF-RIVER;Engine
+910001384;UK-Other-5min-Actual-Generation;GB;Great Britain;OTHER;Engine
+910001385;UK-Biomass-5min-Actual-Generation;GB;Great Britain;BIOMASS;ST-Biomass
