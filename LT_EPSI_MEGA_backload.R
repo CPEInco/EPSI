@@ -1,7 +1,11 @@
 rm(list = ls())
-source("//srv05/Shared/Analysis/CodeLibrary/R/get_incobisql_data_pub.r")
-source("//srv05/Shared/Analysis/CodeLibrary/R/get_incobisql_query_data.r")
+
+source("CodeLibrary/R/get_incobisql_data_pub.r")
+source("CodeLibrary/R/get_inco_query_data.r")
+source("CodeLibrary/R/squr_funcs.R")
+
 library(dplyr)
+library(lubridate)
 
 #countries = c(
 #  #"Austria",
@@ -258,7 +262,7 @@ get_historical_EPSI_errors <- function(countries, startDate = as.POSIXct("2021-1
   
   if("Great Britain" %in% countries){
     gbpeur <- sqlGetQueryReultsInCo(database  = "InCo", 
-                                    sqlPath   = "//VMWINFIL01/INCOMAS/Trading/Forward Power/Employees/JMP/EPSI_autocorrelation_combination/EURGBP.sql",
+                                    sqlPath   = "CodeLibrary/SQL Scripts/EURGBP.sql",
                                     username  = "sa_ForwardPowerTrading",
                                     password  = "sVXTFQrQS3p8",
                                     author    = "jmp", 
@@ -268,13 +272,13 @@ get_historical_EPSI_errors <- function(countries, startDate = as.POSIXct("2021-1
                                     endDate   = endDate)
     
     gb_in_eur <- NULL
-    
+    i<-1
     for(i in 1:nrow(gbpeur)){
       
       conv_date <- gbpeur$Date[i]
       conv_val  <- gbpeur$Value[i]
       
-      gb_in_eur <- append(gb_in_eur, spot_price %>% dplyr::filter(date(ValueDate) == conv_date) %>% dplyr::mutate(`Great Britain` = `Great Britain`*conv_val) %>% dplyr::select(`Great Britain`) %>% unlist() %>% unname() %>% round(2))
+      gb_in_eur <- append(gb_in_eur, spot_price %>% dplyr::filter(lubridate::date(ValueDate) == conv_date) %>% dplyr::mutate(`Great Britain` = `Great Britain`*conv_val) %>% dplyr::select(`Great Britain`) %>% unlist() %>% unname() %>% round(2))
       
     }
     
@@ -320,13 +324,20 @@ EPSI_error <- get_historical_EPSI_errors(countries = c(
 
 # Generate forecasts
 
-i <- 1
+EPSI_error_mani<-EPSI_error %>% 
+  tidyr::pivot_longer(!ValueDate,names_to="Country",values_to="Correction")
 
 while(min(EPSI_error$ValueDate) + lubridate::days(250+i) - lubridate::hours(1) <= as.POSIXct("2022-11-14: 23:00:00")){
   
-  cat("\n\nForecasting date", paste0(date(min(EPSI_error$ValueDate) + lubridate::days(250+i) - lubridate::hours(1))))
+  cat("\n\nForecasting date", paste0(lubridate::date(min(EPSI_error$ValueDate) + lubridate::days(250+i) - lubridate::hours(1))))
   
-  EPSI_error_sub <- EPSI_error %>% dplyr::filter(ValueDate <= min(ValueDate) + lubridate::days(250+i) - lubridate::hours(1))
+  for (j in 1:length(countries)){
+  
+    print(j)
+    
+  EPSI_error_sub <- EPSI_error_mani %>% dplyr::filter(ValueDate <= min(ValueDate) + lubridate::days(250+i) - lubridate::hours(1) & Correction<70 & Correction>-70 & Country==countries[j] )
+  EPSI_error_sub<-EPSI_error_sub %>% 
+    tidyr::pivot_wider(names_from = Country, values_from=Correction)
   
   EPSI_error_forecast <- EPSI_correction(EPSI_error_sub, h = 15)
   
@@ -340,7 +351,8 @@ while(min(EPSI_error$ValueDate) + lubridate::days(250+i) - lubridate::hours(1) <
   # Round value column to 2 decimal points
   EPSI_error_forecast$Value <- round(EPSI_error_forecast$Value, digits = 2)
   
-  upload_to_db("EPSI_MEGA", EPSI_error_forecast)
+  #upload_to_db("EPSI_MEGA", EPSI_error_forecast)
+  }
   
   i <- i + 1
   
