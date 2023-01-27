@@ -99,6 +99,3 @@ httr::POST(uploadpath, body = httr::upload_file(paste0(savepath,filename)))
 
 }
 
-logname = "FR_Nuke_AvCap_EPSIupload"
-source("//172.17.0.6/Shared\\Analysis\\CodeLibrary\\R\\logfun.R")
-logfun(code, logname, url = "https://hooks.slack.com/services/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", hourssincelast = 0)
