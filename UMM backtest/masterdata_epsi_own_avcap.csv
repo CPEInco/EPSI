@@ -1,0 +1,198 @@
+﻿name;Country;Unit;EPSIid;id;SAS.ID;Scenario
+in_backtest_1;Austria;AT-Donaustadt 3;120771;1;27770;1
+in_backtest_1;Austria;AT-Linz Mitte # 1A;120776;6;36356;1
+in_backtest_1;Austria;AT-Linz Mitte # 1B;120781;11;36357;1
+in_backtest_1;Austria;AT-Mellach;120786;16;27921;1
+in_backtest_1;Austria;AT-Mellach CCGT # 1;120791;21;82082;1
+in_backtest_1;Austria;AT-Mellach CCGT # 2;120796;26;82083;1
+in_backtest_1;Austria;AT-Simmering # 1;120801;31;30222;1
+in_backtest_1;Austria;AT-Simmering # 3;120806;36;36358;1
+in_backtest_1;Austria;AT-Theiss # B;120811;41;85610;1
+in_backtest_1;Austria;AT-Timelkam # CCGT;120816;46;28402;1
+in_backtest_1;Belgium;BE-Marcinelle;120871;101;8783;1
+in_backtest_1;Switzerland;CH-Muehleberg;120968;166;34212;1
+in_backtest_1;Czech Republic;CZ-Chvaletice # 1;120973;171;26956;1
+in_backtest_1;Czech Republic;CZ-Chvaletice # 2;120978;176;30223;1
+in_backtest_1;Czech Republic;CZ-Chvaletice # 3;120983;181;30224;1
+in_backtest_1;Czech Republic;CZ-Chvaletice # 4;120988;186;30225;1
+in_backtest_1;Czech Republic;CZ-Detmarovice # 1;120993;191;27482;1
+in_backtest_1;Czech Republic;CZ-Detmarovice # 2;120998;196;27815;1
+in_backtest_1;Czech Republic;CZ-Detmarovice # 3;121003;201;27484;1
+in_backtest_1;Czech Republic;CZ-Detmarovice # 4;121008;206;27034;1
+in_backtest_1;Czech Republic;CZ-Dukovany # 1;121013;211;27028;1
+in_backtest_1;Czech Republic;CZ-Dukovany # 2;121018;216;27029;1
+in_backtest_1;Czech Republic;CZ-Dukovany # 3;121023;221;27030;1
+in_backtest_1;Czech Republic;CZ-Dukovany # 4;121028;226;27031;1
+in_backtest_1;Czech Republic;CZ-Komorany # 10;121033;231;26639;1
+in_backtest_1;Czech Republic;CZ-Komorany # 21;121038;236;26640;1
+in_backtest_1;Czech Republic;CZ-Komorany # 22;121043;241;26641;1
+in_backtest_1;Czech Republic;CZ-Komorany # 4;121048;246;26642;1
+in_backtest_1;Czech Republic;CZ-Komorany # 5;121053;251;26643;1
+in_backtest_1;Czech Republic;CZ-Komorany # 6;121058;256;26644;1
+in_backtest_1;Czech Republic;CZ-Komorany # 7;121063;261;26645;1
+in_backtest_1;Czech Republic;CZ-Komorany # 9;121068;266;26646;1
+in_backtest_1;Czech Republic;CZ-Ledvice # 2;121073;271;23779;1
+in_backtest_1;Czech Republic;CZ-Ledvice # 3;121078;276;23780;1
+in_backtest_1;Czech Republic;CZ-Ledvice # 4;121083;281;27488;1
+in_backtest_1;Czech Republic;CZ-Melnik # 10;121088;286;27036;1
+in_backtest_1;Czech Republic;CZ-Melnik # 11;121093;291;27037;1
+in_backtest_1;Czech Republic;CZ-Melnik # 1a;121098;296;25602;1
+in_backtest_1;Czech Republic;CZ-Melnik # 1b;121103;301;25603;1
+in_backtest_1;Czech Republic;CZ-Melnik # 1c;121108;306;25604;1
+in_backtest_1;Czech Republic;CZ-Melnik # 1d;121113;311;25605;1
+in_backtest_1;Czech Republic;CZ-Melnik # 1e;121118;316;25606;1
+in_backtest_1;Czech Republic;CZ-Melnik # 1f;121123;321;25607;1
+in_backtest_1;Czech Republic;CZ-Melnik # 9;121128;326;27035;1
+in_backtest_1;Czech Republic;CZ-Pocerady # 2;121133;331;27151;1
+in_backtest_1;Czech Republic;CZ-Pocerady # 3;121138;336;32535;1
+in_backtest_1;Czech Republic;CZ-Pocerady # 4;121143;341;27492;1
+in_backtest_1;Czech Republic;CZ-Pocerady # 5;121148;346;27497;1
+in_backtest_1;Czech Republic;CZ-Pocerady # 6;121153;351;27506;1
+in_backtest_1;Czech Republic;CZ-Pocerady # 7;121158;356;27520;1
+in_backtest_1;Czech Republic;CZ-Porici # 1;121163;361;37874;1
+in_backtest_1;Czech Republic;CZ-Porici # 2;121168;366;32496;1
+in_backtest_1;Czech Republic;CZ-Porici # 3;121173;371;37875;1
+in_backtest_1;Czech Republic;CZ-Prunerov I # 1;121178;376;27510;1
+in_backtest_1;Czech Republic;CZ-Prunerov II # 3;121183;381;27508;1
+in_backtest_1;Czech Republic;CZ-Prunerov II # 4;121188;386;27509;1
+in_backtest_1;Czech Republic;CZ-Prunerov II # 5;121193;391;23798;1
+in_backtest_1;Czech Republic;CZ-Temelin # 1;121198;396;27032;1
+in_backtest_1;Czech Republic;CZ-Temelin # 2;121203;401;27033;1
+in_backtest_1;Czech Republic;CZ-Tusimice # 21;121208;406;27039;1
+in_backtest_1;Czech Republic;CZ-Tusimice # 22;121213;411;27040;1
+in_backtest_1;Czech Republic;CZ-Tusimice # 23;121218;416;27818;1
+in_backtest_1;Czech Republic;CZ-Tusimice # 24;121223;421;27821;1
+in_backtest_1;Germany;DE-Altbach # GT A;121228;426;28451;1
+in_backtest_1;Germany;DE-Altbach # GT B;121233;431;12045;1
+in_backtest_1;Germany;DE-Altbach # GT C;121238;436;28452;1
+in_backtest_1;Germany;DE-Bremen Hafen # 6;121293;491;20032;1
+in_backtest_1;Germany;DE-Dortmund;121313;511;28076;1
+in_backtest_1;Germany;DE-Duisburg Hochfeld # I;121318;516;10811;1
+in_backtest_1;Germany;DE-Duisburg-Hamborn # 4;121323;521;28463;1
+in_backtest_1;Germany;DE-Duisburg-Huckingen # A;121328;526;9164;1
+in_backtest_1;Germany;DE-Duisburg-Huckingen # B;121333;531;9165;1
+in_backtest_1;Germany;DE-Emden biomass;121343;541;9136;1
+in_backtest_1;Germany;DE-Essen Karnap;121398;596;28073;1
+in_backtest_1;Germany;DE-Goldenberg # 1;121488;686;10836;1
+in_backtest_1;Germany;DE-Hafen Munster # 1;121533;731;10845;1
+in_backtest_1;Germany;DE-Irsching # 3;121608;806;9171;1
+in_backtest_1;Germany;DE-Koeln Merkenich # GuD;121678;876;10919;1
+in_backtest_1;Germany;DE-Stuttgart Munster CHP # 1;122088;1291;11743;1
+in_backtest_1;Germany;DE-Stuttgart Munster CHP # 2;122093;1296;11744;1
+in_backtest_1;Germany;DE-Stuttgart Munster CHP # 3;122098;1301;11745;1
+in_backtest_1;Germany;DE-Stuttgart Munster GT;122103;1306;38649;1
+in_backtest_1;Germany;DE-Ville Berrenrath;122148;1351;18929;1
+in_backtest_1;Germany;DE-Wachtberg Frechen # 1;122173;1376;9461;1
+in_backtest_1;Germany;DE-Wachtberg Frechen # 2;122178;1381;9462;1
+in_backtest_1;Germany;DE-Wachtberg Frechen # 3;122183;1386;9463;1
+in_backtest_1;Germany;DE-Wachtberg Frechen # 4;122188;1391;9464;1
+in_backtest_1;Germany;DE-Wachtberg Frechen # 5;122193;1396;9465;1
+in_backtest_1;Germany;DE-Wachtberg Frechen # 6;122198;1401;9466;1
+in_backtest_1;Germany;DE-Westfalen # E;122333;1536;11038;1
+in_backtest_1;Germany;DE-Wolfsburg West # 1;122358;1561;11046;1
+in_backtest_1;Germany;DE-Wolfsburg West # 2;122363;1566;17614;1
+in_backtest_1;Spain;ES-Almaraz # 1;122373;1576;38665;1
+in_backtest_1;Spain;ES-Almaraz # 2;122378;1581;38666;1
+in_backtest_1;Spain;ES-As Pontes # 1;122383;1586;32738;1
+in_backtest_1;Spain;ES-Asco # 1;122388;1591;32735;1
+in_backtest_1;Spain;ES-Asco # 2;122393;1596;23115;1
+in_backtest_1;Spain;ES-Cofrentes;122398;1601;18477;1
+in_backtest_1;Spain;ES-Litoral de Almeria # 1;122403;1606;38694;1
+in_backtest_1;Spain;ES-Litoral de Almeria # 2;122408;1611;38695;1
+in_backtest_1;Spain;ES-Los Barrios;122413;1616;38696;1
+in_backtest_1;Spain;ES-Narcea # 3;122418;1621;38698;1
+in_backtest_1;Spain;ES-Puente Nuevo;122423;1626;27548;1
+in_backtest_1;Spain;ES-Trillo # 1;122428;1631;38713;1
+in_backtest_1;Spain;ES-Trillo # 2;122433;1636;38714;1
+in_backtest_1;Spain;ES-Vandellos 2;122438;1641;38715;1
+in_backtest_1;France;FR-Brennilis GT # 1;122479;1711;67706;1
+in_backtest_1;France;FR-Brennilis GT # 2;122484;1716;67707;1
+in_backtest_1;France;FR-Brennilis GT # 3;122489;1721;67708;1
+in_backtest_1;France;FR-Dirinon GT # 1;122519;1876;67737;1
+in_backtest_1;France;FR-Dirinon GT # 2;122524;1881;67738;1
+in_backtest_1;France;FR-Montereau # 5;122614;2021;67777;1
+in_backtest_1;France;FR-Montereau # 6;122619;2026;67778;1
+in_backtest_1;France;FR-Provence # 4 Bio;122649;2091;9062;1
+in_backtest_1;France;FR-Vaires GT # 1;122679;2161;67805;1
+in_backtest_1;France;FR-Vaires GT # 2;122684;2166;67806;1
+in_backtest_1;France;FR-Vaires GT # 3;122689;2171;67807;1
+in_backtest_1;France;FR-Vitry-Arrighi GT # 1;122704;2186;67810;1
+in_backtest_1;France;FR-Vitry-Arrighi GT # 2;122709;2191;67811;1
+in_backtest_1;Italy NORD;IT-Cimego;122719;2201;38405;1
+in_backtest_1;Italy NORD;IT-Fusina # 1;122724;2206;81818;1
+in_backtest_1;Italy NORD;IT-Fusina # 2;122729;2211;81819;1
+in_backtest_1;Italy NORD;IT-Fusina # 3;122734;2216;81820;1
+in_backtest_1;Italy NORD;IT-Fusina # 4;122739;2221;81821;1
+in_backtest_1;Italy NORD;IT-Genova # 3;122744;2226;20035;1
+in_backtest_1;Italy NORD;IT-La Spezia # 3;122749;2231;38375;1
+in_backtest_1;Italy NORD;IT-Lamarmora # 1;122754;2236;20029;1
+in_backtest_1;Italy NORD;IT-Monfalcone # 1;122759;2241;9640;1
+in_backtest_1;Italy NORD;IT-Monfalcone # 2;122764;2246;9641;1
+in_backtest_1;Italy NORD;IT-Monfalcone # 3;122769;2251;9642;1
+in_backtest_1;Italy NORD;IT-Monfalcone # 4;122774;2256;9643;1
+in_backtest_1;Italy NORD;IT-Ostiglia # 4;122779;2261;9656;1
+in_backtest_1;Italy NORD;IT-Turbigo # 3;122784;2266;9769;1
+in_backtest_1;Italy NORD;IT-Vado Ligure # VL3;122789;2271;9774;1
+in_backtest_1;Italy NORD;IT-Vado Ligure # VL4;122794;2276;9775;1
+in_backtest_1;Austria;AT-Hydro-PS;128736;;26795;1
+in_backtest_1;Austria;AT-ST-Coal;128737;;26799;1
+in_backtest_1;Austria;AT-CCGT;130411;;26793;1
+in_backtest_1;Belgium;BE-CCGT;128811;;9308;1
+in_backtest_1;Belgium;BE-Hydro-PS;128812;;9304;1
+in_backtest_1;Belgium;BE-ST-Biomass;128813;;9316;1
+in_backtest_1;Belgium;BE-ST-Nuclear;128814;;9312;1
+in_backtest_1;Czech Republic;CZ-CCGT;128832;;9932;1
+in_backtest_1;Czech Republic;CZ-ST-Coal;128833;;9933;1
+in_backtest_1;Czech Republic;CZ-ST-Lignite;128834;;9929;1
+in_backtest_1;Czech Republic;CZ-Prunerov I # 4;128835;;27512;1
+in_backtest_1;France;FR-CCGT;128837;;9342;1
+in_backtest_1;France;FR-GT;128838;;9337;1
+in_backtest_1;France;FR-Hydro-PS;128839;;9338;1
+in_backtest_1;France;FR-Hydro-Res;128840;;9344;1
+in_backtest_1;France;FR-ST-Coal;128841;;9343;1
+in_backtest_1;France;FR-Emile-Huchet # 6;128842;;27868;1
+in_backtest_1;France;FR-Cycofos # 2;128843;;30004;1
+in_backtest_1;France;FR-Cycofos # 1;131394;;9121;1
+in_backtest_1;France;FR-ST-Nuclear;128844;;9346;1
+in_backtest_1;France;FR-ST-Oil;128845;;9347;1
+in_backtest_1;Germany;DE-CCGT;128846;;9325;1
+in_backtest_1;Germany;DE-Hydro-PS;128847;;9321;1
+in_backtest_1;Germany;DE-Wehr # 3;128848;;9442;1
+in_backtest_1;Germany;DE-ST-Coal;128849;;9326;1
+in_backtest_1;Germany;DE-Kiel # Coal;128850;;10881;1
+in_backtest_1;Germany;DE-ST-Gas;128851;;9324;1
+in_backtest_1;Germany;DE-ST-Lignite;128852;;9322;1
+in_backtest_1;Germany;DE-ST-Nuclear;128853;;9329;1
+in_backtest_1;Germany;DE-ST-Oil;128854;;9330;1
+in_backtest_1;Germany;DE-ST-Waste;128855;;9328;1
+in_backtest_1;Hungary;HU-CCGT;128987;;44339;1
+in_backtest_1;Hungary;HU-Csepel Il;128988;;44176;1
+in_backtest_1;Hungary;HU-Dunamenti # G1;128989;;44336;1
+in_backtest_1;Hungary;HU-Dunamenti # G2;128990;;44178;1
+in_backtest_1;Hungary;HU-Dunamenti # G3;128991;;44177;1
+in_backtest_1;Hungary;HU-Gonyu;128992;;44179;1
+in_backtest_1;Hungary;HU-Kelenfold # 2;128993;;44180;1
+in_backtest_1;Hungary;HU-Kispest;128994;;44181;1
+in_backtest_1;Hungary;HU-Sajoszoged;128995;;44195;1
+in_backtest_1;Hungary;HU-Matrai # 1;128996;;44182;1
+in_backtest_1;Hungary;HU-Matrai # 2;128997;;44183;1
+in_backtest_1;Hungary;HU-Matrai # 3;128998;;44184;1
+in_backtest_1;Hungary;HU-Matrai # 4;128999;;44185;1
+in_backtest_1;Hungary;HU-Matrai # 5;129000;;44186;1
+in_backtest_1;Hungary;HU-Paks # 1;129001;;44187;1
+in_backtest_1;Hungary;HU-Paks # 2;129002;;44188;1
+in_backtest_1;Hungary;HU-Paks # 3;129003;;44189;1
+in_backtest_1;Hungary;HU-Paks # 4;129004;;44190;1
+in_backtest_1;Italy NORD;IT-CCGT;129005;;9962;1
+in_backtest_1;Italy NORD;IT-Hydro-PS;129006;;9958;1
+in_backtest_1;Italy NORD;IT-Hydro-RoR;129007;;9960;1
+in_backtest_1;Netherlands;NL-CCGT;129008;;9359;1
+in_backtest_1;Netherlands;NL-ST-Coal;129009;;9360;1
+in_backtest_1;Netherlands;NL-ST-Gas;129010;;9358;1
+in_backtest_1;Netherlands;NL-ST-Nuclear;129011;;9363;1
+in_backtest_1;Spain;ES-CCGT;129012;;18518;1
+in_backtest_1;Spain;ES-Hydro-PS;129013;;18527;1
+in_backtest_1;Spain;ES-Guardo # 2;129014;;18485;1
+in_backtest_1;Spain;ES-La Robla # 1;129015;;28458;1
+in_backtest_1;Spain;ES-La Robla # 2;129016;;38785;1
+in_backtest_1;Spain;ES-Lada # 4;129017;;38693;1
